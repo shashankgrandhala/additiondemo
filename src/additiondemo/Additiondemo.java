@@ -18,12 +18,12 @@ public class Additiondemo {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int a,b,c;
+        int a,x,c;
         System.out.println("Enter two numbers");
         Scanner in = new Scanner(System.in);
         a = in.nextInt();
-        b = in.nextInt();
-        c = a+b;
+        x = in.nextInt();
+        c = a+x;
         System.out.println("Sum of numbers ="+c);
         
     }
